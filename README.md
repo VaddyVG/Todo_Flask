@@ -20,13 +20,25 @@ git clone https://github.com/VaddyVG/Todo_Flask.git
 cd Todo_Flask
 ```
 
-3. Установите Flask и SQLAlchemy
+3. Установите и активируйте виртуальное окружение
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+4. Установите Flask и SQLAlchemy
 ```bash
 pip install Flask
 pip install Flask-SQLAlchemy
 ```
 
-4. Запустите приложение
+5. Установите переменные в терминале
 ```bash
-python app.py
+export FLASK_APP=app.py
+export FLASK_ENV=development
+```
+
+6. Запустите приложение
+```bash
+flask run
 ```
