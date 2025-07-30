@@ -34,5 +34,5 @@ pip install Flask-SQLAlchemy
 
 5. Запустите приложение
 ```bash
-pyhton3 main.py
+python3 main.py
 ```
